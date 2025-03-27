@@ -1,5 +1,7 @@
 # Vue 2 Functional Components
 
+A functional component is a **stateless**, **lifecycle-free** component that is optimized for performance (representational component in React). Unlike regular components, functional components are simply functions that receive props and return Virtual DOM elements. This makes them lightweight and faster to render, especially in large lists.
+
 ## Table of Contents
 - [Key Characteristics](#-key-characteristics)
 - [How to Define a Functional Component](#-how-to-define-a-functional-component)
@@ -15,8 +17,7 @@
   - [Use Emit to Communicate to Parent Component](#use-emit-to-communicate-to-parent-component)
   - [Used as a Wrapper Component (Template Syntax)](#used-as-a-wrapper-component-template-syntax)
   - [Used as a Wrapper Component (Render Function Syntax)](#used-as-a-wrapper-component-render-function-syntax)
-
-A functional component is a **stateless**, **lifecycle-free** component that is optimized for performance (representational component in React). Unlike regular components, functional components are simply functions that receive props and return Virtual DOM elements. This makes them lightweight and faster to render, especially in large lists.
+- [Reference](#-key-reference)
 
 ## 🔹 Key Characteristics:
 1. **Stateless** – No `data` properties.
@@ -272,4 +273,8 @@ export default {
 </script>
 ```
 
-[Reference](https://github.com/vuejs/vue/issues/7492)
+## 🔹 Key Reference:
+[Official Doc](https://v2.vuejs.org/v2/guide/render-function#Functional-Components)
+[Functional components in Vue.js (2.x)](https://dev.to/vhoyer/functional-components-in-vue-js-20fl)
+[Functional single file component with components option](https://github.com/vuejs/vue/issues/7492)
+[揭秘 Vue.js 九个性能优化技巧](https://link.juejin.cn/?target=https%3A%2F%2Fmp.weixin.qq.com%2Fs%3F__biz%3DMzI3NTM5NDgzOA%3D%3D%26mid%3D2247491159%26idx%3D1%26sn%3Dd1d78bdd47a12395f098a234e35c0c75%26chksm%3Deb04262edc73af38013e0b06796672b30068291be3299a88889f577642dae47e3206637c6c87%26token%3D431470234%26lang%3Dzh_CN%23rd)
